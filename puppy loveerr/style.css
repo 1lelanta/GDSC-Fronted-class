@@ -1,0 +1,88 @@
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(50, 92, 170);
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.two-photo {
+    display: flex;
+    justify-content: center; /* center content horizontally */
+    margin: 20px 0;
+}
+
+.two-photo-container {
+    display: flex;
+    justify-content: center; /* center items horizontally */
+    align-items: center; /* center items vertically */
+    flex-wrap: wrap; /* allow items to wrap if needed */
+}
+
+.small-photo {
+    width: 300px; /* increased size for better visibility */
+    height: 300px; /* increased size for better visibility */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth transition for hover */
+}
+
+
+.two-photo-container p {
+    width: 300px; /* match photo size */
+    height: 310px; /* match photo size */
+    font-size: 50px; /* slightly larger font */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white; /* text color */
+    background-color: rgb(255, 119, 119); /* bright red */
+    border: 2px solid rgb(255, 77, 77); /* red border */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* center text within the element */
+}
+.two-photo-container p:hover {
+    transform: scale(1.05); /* slight scale up on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* deeper shadow on hover */
+}
+
+@media (min-width: 768px) {
+    .two-photo-container {
+        flex-direction: row; /* align items in a row */
+    }
+
+    .two-photo-container img,
+    .two-photo-container p {
+        margin-right: 10px; /* spacing between images */
+        margin-bottom: 0; /* remove margin below images */
+    }
+}
+
+footer {
+    background-color:rgb(81, 81, 228) ; /* light grey */
+    padding: 20px 0;
+    color:rgb(50, 92, 170);
+    font-size: 14px;
+    
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.next-puppy h2 {
+    text-align: center;
+}
