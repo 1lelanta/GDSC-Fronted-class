@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 32px auto;
+    background-color: #1B244A;
+    color: white;
+    display: flex;
+    width: 575px;
+    height: 385px;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home, .guest {
+    margin: 0px 25px;
+}
+
+#home--btn, #guest--btn {
+    width: 155px;
+    height: 120px;
+    margin: 15px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 7px;
+}
+
+.operate {
+    width: 180px;
+    height: 55px;
+    padding-left: 8px;
+}
+
+.operate > button {
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: transparent;
+    border: 2px solid rgb(219, 219, 219);
+    font-size: 18px;
+    color: #9AABD8;
+    border-radius: 5px;
+}
+
+.operate > button:active {
+    background-color: rgba(255, 255, 255, 0.275);
+}

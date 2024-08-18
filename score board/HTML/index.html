@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h1>HOME</h1>
+            <button id="home--btn">0</button>
+            <div class="operate">
+                <button id="btn--one" onclick="plusOne()">+1</button>
+                <button id="btn--two" onclick="plusTwo()">+2</button>
+                <button id="btn--three" onclick="plusThree()">+3</button>
+            </div>
+        </div>
+        <div class="guest">
+            <h1>GUEST</h1>
+            <button id="guest--btn">0</button>
+            <div class="operate">
+                <button id="guest-btn-one" onclick="guestPlusOne()">+1</button>
+                <button id="guest-btn-two" onclick="guestPlusTwo()">+2</button>
+                <button id="guest-btn-three" onclick="guestPlusThree()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/script.js"></script>
+</body>
+</html>
