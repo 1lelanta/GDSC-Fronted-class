@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Elements</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="color-container">
+    <h1>Select a Background Color</h1>
+    <label>
+        <input type="radio" name="color" value="blue" onclick="changeBackgroundColor('#5ab5ff')"> Blue
+    </label>
+    <label>
+        <input type="radio" name="color" value="green" onclick="changeBackgroundColor('#03c4a1')"> Green
+    </label>
+    <label>
+        <input type="radio" name="color" value="purple" onclick="changeBackgroundColor('#c300ff')"> Purple
+    </label>
+    <label>
+        <input type="radio" name="color" value="sunny" onclick="changeBackgroundColor('#FFEB3B')"> Sunny Mode
+    </label>
+    <label>
+        <input type="radio" name="color" value="nightmode" onclick="changeBackgroundColor('#000')"> Night Mode
+    </label>
+</div>
+    
+    <div class="number-container">
+        <h1>Plus and Minus Example</h1>
+        <button onclick="decrease()">-</button>
+        <span id="number">10</span>
+        <button onclick="increase()">+</button>
+    </div>
+
+    
+    <h1>Login</h1>
+    <form id="loginForm" onsubmit="validateForm(event)">
+        <input type="text" id="fullname" placeholder="User Full Name"><br>
+        <input type="password" id="password" placeholder="Password"><br>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="message"></div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

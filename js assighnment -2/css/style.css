@@ -1,0 +1,41 @@
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: list-item;
+    
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+
+input.error {
+    background-color: pink;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#fullname, #password{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+    width: 40px;
+    align-items: center;
+}
+
+.number-container {
+    margin: 30px 0;
+}
