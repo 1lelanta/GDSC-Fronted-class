@@ -1,0 +1,129 @@
+.weather-app {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  background: linear-gradient(to bottom, #87ceeb, #1e90ff); /* Gradient sky blue */
+}
+
+.weather-card {
+  flex: 1;
+  margin-right: 20px;
+  background-color: #0f0f89; /* Deep blue background */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  color: white;
+  transition: transform 0.3s ease;
+  width: 350px; /* Updated width */
+}
+
+.weather-card:hover {
+  transform: translateY(-5px); /* Subtle hover animation */
+}
+
+.main-weather-card {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #1e90ff; /* Blue border on focus */
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease;
+}
+
+.search-icon:hover {
+  transform: scale(1.1);
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.temp {
+  font-size: 56px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ff6347; /* Vibrant color for temperature */
+}
+
+.city {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px; /* Spacing between rows */
+}
+
+.weather-data .col img {
+  width: 24px; /* Small icon size */
+  height: 24px;
+  margin-right: 8px; /* Spacing between icon and text */
+}
+
+.weather-data .col p {
+  margin: 0;
+  font-size: 16px; /* Adjust text size */
+}
+
+.weather-data .col span {
+  font-size: 12px; /* Label text size */
+  color: #555; /* Lighter color for labels */
+}
+
+.default-layout {
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+}
+
+.small-cards-container {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}

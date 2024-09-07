@@ -1,0 +1,21 @@
+/* index.css */
+.w_app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #87CEEB;
+}
+
+/* WeatherCard.css */
+.weather {
+  width: 50%;
+}
+
+.small-cards-container {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 10px;
+}
